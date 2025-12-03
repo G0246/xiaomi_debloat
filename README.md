@@ -4,7 +4,7 @@
 
 ## About
 
-A curated list of apps from the **Xiaomi Pad 6 Pro** that can be safely disabled or uninstalled without disrupting system services.
+This guide includes a comprehensive app list, complete with package names and descriptions of pre-installed apps on Xiaomi/Oppo devices for easy reference. It also features a curated selection of apps from the Xiaomi Pad 6 Pro that can be safely disabled or uninstalled without affecting core system services.
 
 ### How to Use
 
