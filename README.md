@@ -473,7 +473,7 @@ To disable or uninstall these apps, you can use:
 | Network Location | com.xiaomi.metoknlp | Xiaomi location service, may be related to NLP (Natural Language Processing) |
 | Mi Connect Service | com.xiaomi.mi_connect_service | Xiaomi Mi Connect service, manages connections between Xiaomi devices |
 | System TTS Engine | com.xiaomi.mibrain.speech |  |
-| com.xiaomi.micloudsdk.SdkApplication | com.xiaomi.micloud.sdk | Xiaomi cloud service SDK, supports cloud storage and sync |
+|  | com.xiaomi.micloud.sdk | Xiaomi cloud service SDK, supports cloud storage and sync |
 | Mi Game Service | com.xiaomi.migameservice | Xiaomi game service, provides game optimization and management functions |
 | Mi Cast | com.xiaomi.miplay_client |  |
 | Wireless display extension | com.xiaomi.miralink | Xiaomi Miracast service, extends screen to external displays including Windows computers |
