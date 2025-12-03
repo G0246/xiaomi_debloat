@@ -1,4 +1,4 @@
-# Xiaomi Debloat
+# Xiaomi Debloat List
 
 **Last updated: 03/12/2025**
 
