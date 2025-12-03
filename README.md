@@ -15,7 +15,8 @@ To disable or uninstall these apps, you can use:
 
 ## Apps that I disabled
 
-> **Note:** This list represents a conservative debloat configuration for the Chinese model Xiaomi Pad 6 Pro, optimized for international use with Google services. The selection prioritizes system stability while removing unnecessary bloatware.
+> [!NOTE]
+> This list represents a conservative debloat configuration for the Chinese model Xiaomi Pad 6 Pro, optimized for international use with Google services. The selection prioritizes system stability while removing unnecessary bloatware.
 
 | Name | Package | Description |
 |------|---------|-------------|
@@ -29,8 +30,6 @@ To disable or uninstall these apps, you can use:
 | Device interconnectivity services | com.xiaomi.mirror | For screen mirroring, disabled due to infrequent use |
 | Feedback | com.miui.bugreport | No comment, optional |
 
-
-
 ## Apps that are pre-disabled/hidden on a fresh install of Xiaomi Pad 6 Pro
 | Name | Package | Description |
 |------|---------|-------------|
@@ -40,9 +39,12 @@ To disable or uninstall these apps, you can use:
 | Family Guard | com.miui.greenguard | Provides parental controls, uninstall button just hides it from app list |
 | Education Center | com.xiaomi.kidspace | Educational app, uninstall button just hides it from app list |
 
+---
+
 ## Xiaomi/Oppo apps complete list
 
-> **Note:** This list may not be complete even tho I have checked it one by one. App names and descriptions have been translated or fetched from official sources by me to the best of my ability. Some apps may not be available on global devices, and names may vary between MIUI and HyperOS3.
+> [!NOTE]
+> This list may not be complete even tho I have checked it one by one. App names and descriptions have been translated or fetched from official sources by me to the best of my ability. Some apps may not be available on global devices, and names may vary between MIUI and HyperOS3.
 
 | Name | Package | Description |
 | ------ | --------- | ------------- |
