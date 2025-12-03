@@ -21,12 +21,12 @@ To disable or uninstall these apps, you can use:
 | Name | Package | Description |
 |------|---------|-------------|
 | Analytics | com.miui.analytics | Who wants spyware? |
-| Mi Game Service | com.xiaomi.migameservice | Not necessary for global games |
+| Mi Game Service | com.xiaomi.migameservice | Not necessary for global version of games |
 | Wireless display extension | com.xiaomi.miralink | Extends your screen to Windows computer, optional |
 | Interconnectivity services | com.milink.service | For casting and device-to-device communication, disabled due to wasting background resources |
 | Xiaomi HyperAI XiaoAi | com.miui.voiceassist | Not used to this voice assistant and not very useful to me |
 | Xiaomi HyperAI Engine | com.xiaomi.aicr | XiaoAi components (LLMs), disabled due to wasting background resources |
-| Game Service | com.xiaomi.gamecenter.sdk.service | Not necessary for global games |
+| Game Service | com.xiaomi.gamecenter.sdk.service | Not necessary for global version of games |
 | Device interconnectivity services | com.xiaomi.mirror | For screen mirroring, disabled due to infrequent use |
 | Feedback | com.miui.bugreport | No comment, optional |
 
@@ -42,6 +42,8 @@ To disable or uninstall these apps, you can use:
 ---
 
 ## Xiaomi/Oppo apps complete list
+> [!CAUTION]
+> This list represents pre-installed apps, do not uninstall/disable any apps referencing this list!
 
 > [!NOTE]
 > This list may not be complete even tho I have checked it one by one. App names and descriptions have been translated or fetched from official sources by me to the best of my ability. Some apps may not be available on global devices, and names may vary between MIUI 14 and HyperOS 3.
