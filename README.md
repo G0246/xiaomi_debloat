@@ -20,14 +20,14 @@ To disable or uninstall these apps, you can use:
 | Name | Package | Description |
 |------|---------|-------------|
 | Analytics | com.miui.analytics | Who wants spyware? |
-| Mi Game Service | com.xiaomi.migameservice | Not necessary for international games |
+| Mi Game Service | com.xiaomi.migameservice | Not necessary for global games |
 | Wireless display extension | com.xiaomi.miralink | Extends your screen to Windows computer, optional |
 | Interconnectivity services | com.milink.service | For casting and device-to-device communication, disabled due to wasting background resources |
 | Xiaomi HyperAI XiaoAi | com.miui.voiceassist | Not used to this voice assistant and not very useful to me |
 | Xiaomi HyperAI Engine | com.xiaomi.aicr | XiaoAi components (LLMs), disabled due to wasting background resources |
-| Game Service | com.xiaomi.gamecenter.sdk.service | Not necessary for international games |
+| Game Service | com.xiaomi.gamecenter.sdk.service | Not necessary for global games |
 | Device interconnectivity services | com.xiaomi.mirror | For screen mirroring, disabled due to infrequent use |
-| Feedback | com.miui.bugreport | No comment |
+| Feedback | com.miui.bugreport | No comment, optional |
 
 
 
@@ -35,14 +35,14 @@ To disable or uninstall these apps, you can use:
 | Name | Package | Description |
 |------|---------|-------------|
 | DeviceLockController | com.android.devicelockcontroller | Some kind of screen lock controller? |
-| Nfc Service | com.android.nfc | Provides NFC service |
-| Package installer | com.android.packageinstaller | The Android package API that Xiaomi replaced |
+| Nfc Service | com.android.nfc | Provides NFC service, no on board NFC |
+| Package installer | com.android.packageinstaller | The Android package API that Xiaomi destroyed and replaced with their own |
 | Family Guard | com.miui.greenguard | Provides parental controls, uninstall button just hides it from app list |
 | Education Center | com.xiaomi.kidspace | Educational app, uninstall button just hides it from app list |
 
 ## Xiaomi/Oppo apps complete list
 
-> **Note:** This list may not be complete. App names and descriptions have been translated or fetched from official sources by me to the best of my ability. Some apps may not be available on global devices, and names can vary between MIUI 14 and HyperOS 3.
+> **Note:** This list may not be complete even tho I have checked it one by one. App names and descriptions have been translated or fetched from official sources by me to the best of my ability. Some apps may not be available on global devices, and names may vary between MIUI and HyperOS3.
 
 | Name | Package | Description |
 | ------ | --------- | ------------- |
@@ -85,6 +85,7 @@ To disable or uninstall these apps, you can use:
 |  | com.android.cts.ctsshim | Android Compatibility Test Suite (CTS) Shim app, supports device compatibility testing |
 |  | com.android.cts.priv.ctsshim | CTS (Compatibility Test Suite) private component for compatibility testing |
 | Clock | com.android.deskclock |  |
+| DeviceLockController | com.android.devicelockcontroller | Android device lock controller, manages device lock and security features |
 | Basic Interactive Screensaver | com.android.dreams.basic | Basic screensaver management |
 | Photo Screensaver | com.android.dreams.phototable |  |
 | Dynamic System Updates | com.android.dynsystem | Dynamic system service, supports dynamic system updates and switching |
@@ -119,7 +120,7 @@ To disable or uninstall these apps, you can use:
 | Network Manager | com.android.networkstack.inprocess | In-process network stack service, manages network connections |
 |  | com.android.networkstack.overlay | Network stack overlay, manages network functions |
 |  | com.android.networkstack.tethering.inprocess | Network sharing (hotspot) service processing |
-| NFC Service | com.android.nfc | NFC service, supports near-field communication functions |
+| Nfc Service | com.android.nfc | Android NFC service, provides Near Field Communication functionality |
 |  | com.android.ondevicepersonalization.services | On-device personalization service, provides personalized recommendations and settings |
 |  | com.android.ons | ONS (Operator Network Service), manages device network connections |
 |  | com.android.overlay.cngmstelecomm | China-customized Google Mobile Services telecom overlay |
@@ -129,6 +130,7 @@ To disable or uninstall these apps, you can use:
 |  | com.android.overlay.gmstelecomm | Google Mobile Services communication overlay, manages communication-related Google services |
 |  | com.android.overlay.gmstelephony | Google Mobile Services telephony overlay |
 |  | com.android.overlay.systemui | System UI overlay, manages interface display |
+| Package installer | com.android.packageinstaller | Android package installer, handles APK installation and management |
 |  | com.android.pacprocessor | PAC (Proxy Auto-Config) processor, manages network proxy configuration |
 | Permission Controller | com.android.permissioncontroller | Permission controller, manages app permission requests and allocation |
 | Phone Services | com.android.phone | Phone app, manages device phone functions |
@@ -245,15 +247,15 @@ To disable or uninstall these apps, you can use:
 | Mi Wallpaper Carousel | com.mfashiongallery.emag |  |
 | Health | com.mi.health |  |
 | Mi Live Assistant | com.mi.liveassistant |  |
-| Interconnectivity services | com.milink.service | Xiaomi Milink service, supports device-to-device connection and data transfer |
+| Interconnectivity services | com.milink.service | Xiaomi device interconnectivity service, supports casting and device-to-device communication |
 | Mi Wallet | com.mipay.wallet |  |
 | Mi Sound | com.miui.accessibility | MIUI accessibility service, supports device use for disabled users |
-| Analytics | com.miui.analytics | MIUI analytics service, collects user behavior data to "optimize experience" |
+| Analytics | com.miui.analytics | MIUI analytics service, collects usage data and statistics |
 |  | com.miui.aod | MIUI always-on display feature, shows lock screen clock and notifications |
 | Audio Effect | com.miui.audioeffect | MIUI audio effect management service, provides audio enhancement and configuration |
 |  | com.miui.audiomonitor | Audio monitoring service, may be used for recording or audio analysis |
 | Backup | com.miui.backup | MIUI backup service, supports data backup and recovery |
-| Feedback | com.miui.bugreport | MIUI bug report tool for submitting error reports |
+| Feedback | com.miui.bugreport | MIUI feedback and bug report service, allows users to submit feedback and reports |
 | Calculator | com.miui.calculator |  |
 |  | com.miui.carlink | MIUI car link service |
 |  | com.miui.catcherpatch | MIUI catcher patch service, may be used for catching errors or data |
@@ -274,6 +276,7 @@ To disable or uninstall these apps, you can use:
 | FM Service | com.miui.fmservice |  |
 | Floating Windows | com.miui.freeform | MIUI freeform mode service, supports multitasking operations |
 | Gallery | com.miui.gallery |  |
+| Family Guard | com.miui.greenguard | MIUI parental control service, provides family protection and child safety features |
 | MIUI Security Component | com.miui.guardprovider | MIUI guard provider app, provides security protection functions |
 | System Launcher | com.miui.home | MIUI home app, manages device home screen and app layout |
 | Mi Mover | com.miui.huanji |  |
@@ -329,7 +332,7 @@ To disable or uninstall these apps, you can use:
 | Mi Video | com.miui.video |  |
 |  | com.miui.vipservice | MIUI VIP service, provides premium services or support for users |
 | Global Roaming | com.miui.virtualsim |  |
-| XiaoAI | com.miui.voiceassist | MIUI voice assistant, supports voice commands and control |
+| Xiaomi HyperAI XiaoAi | com.miui.voiceassist | Xiaomi voice assistant service, provides voice control and AI assistant functions |
 |  | com.miui.voiceassistoverlay | MIUI voice assistant overlay, supports voice assistant functions |
 | Voice Wakeup | com.miui.voicetrigger | MIUI voice trigger service, supports voice wake-up for device |
 |  | com.miui.vpnsdkmanager | VPN SDK management, supports VPN functions |
@@ -411,7 +414,7 @@ To disable or uninstall these apps, you can use:
 |  | com.qualcomm.qti.qms.service.trustzoneaccess | Qualcomm trust zone access service, manages device trust zone functions |
 |  | com.qualcomm.qti.remoteSimlockAuth | Qualcomm remote SIM lock authentication service |
 |  | com.qualcomm.qti.ridemodeaudio | Qualcomm ride mode audio service |
-|  | com.qualcomm.qti.server.qtiwifi | Qualcomm Wi-Fi server, manages device Wi-Fi functions |
+| QtiWifiService | com.qualcomm.qti.server.qtiwifi | Qualcomm Wi-Fi service, manages device Wi-Fi functions |
 | SIM Contacts | com.qualcomm.qti.simcontacts |  |
 |  | com.qualcomm.qti.telephonyservice | Qualcomm telephony service, manages phone communication-related functions |
 |  | com.qualcomm.qti.uceShimService | Qualcomm UCE (Unified Communication Enhancement) service |
@@ -442,6 +445,7 @@ To disable or uninstall these apps, you can use:
 | Mi Account | com.xiaomi.account | Xiaomi account management, supports account login and sync |
 | AI Assistant | com.xiaomi.aiasst.service | Xiaomi AI assistant service, provides AI assistant functions |
 | AI Assistant Vision | com.xiaomi.aiasst.vision | Xiaomi AI assistant vision service, supports AI assistant visual recognition functions |
+| Xiaomi HyperAI Engine | com.xiaomi.aicr | Xiaomi AI engine service, provides AI processing and LLM capabilities |
 |  | com.xiaomi.aireco | Xiaomi AI recommendation service, provides personalized content recommendations |
 |  | com.xiaomi.aon | Xiaomi always-on-display service, manages screen always-on display functions |
 |  | com.xiaomi.barrage | Xiaomi barrage service, may be used for bullet screen functions in videos or live streams |
@@ -452,24 +456,27 @@ To disable or uninstall these apps, you can use:
 | Driving Mode | com.xiaomi.drivemode |  |
 | Find Device | com.xiaomi.finddevice | Xiaomi find device service, helps users locate lost devices |
 | Game Center | com.xiaomi.gamecenter |  |
-| Game Service | com.xiaomi.gamecenter.sdk.service | Xiaomi game center SDK service, manages game-related SDK functions |
+| Game Service | com.xiaomi.gamecenter.sdk.service | Xiaomi game center SDK service, provides game-related functions and optimizations |
 |  | com.xiaomi.gnss.polaris | Xiaomi GNSS (Global Navigation Satellite System) service |
 | Joyose | com.xiaomi.joyose | Xiaomi entertainment or game-related service |
 | Tianxing Finance | com.xiaomi.jr |  |
+| Education Center | com.xiaomi.kidspace | Xiaomi kids mode and educational content service for children |
 | Fused Location Service | com.xiaomi.location.fused | Xiaomi fused location service, integrates multiple positioning methods to improve location accuracy |
-|  | com.xiaomi.macro | Xiaomi macro service, may be used for automated task management |
+| MiMacro | com.xiaomi.macro | Xiaomi macro service, may be used for automated task management |
 | GetApps | com.xiaomi.market | Xiaomi app market, provides app download and update services |
 | Network Location | com.xiaomi.metoknlp | Xiaomi location service, may be related to NLP (Natural Language Processing) |
 | Mi Connect Service | com.xiaomi.mi_connect_service | Xiaomi Mi Connect service, manages connections between Xiaomi devices |
 | System TTS Engine | com.xiaomi.mibrain.speech |  |
-|  | com.xiaomi.micloud.sdk | Xiaomi cloud service SDK, supports cloud storage and sync |
-| Mi Game Service | com.xiaomi.migameservice | Xiaomi game service, manages game-related functions on Xiaomi devices |
+| com.xiaomi.micloudsdk.SdkApplication | com.xiaomi.micloud.sdk | Xiaomi cloud service SDK, supports cloud storage and sync |
+| Mi Game Service | com.xiaomi.migameservice | Xiaomi game service, provides game optimization and management functions |
 | Mi Cast | com.xiaomi.miplay_client |  |
+| Wireless display extension | com.xiaomi.miralink | Xiaomi Miracast service, extends screen to external displays including Windows computers |
 |  | com.xiaomi.mircs | Xiaomi IRC (Internet Relay Chat) service |
-| Device interconnectivity services | com.xiaomi.mirror | Xiaomi mirror service, supports screen mirroring to other devices |
+| Device interconnectivity services | com.xiaomi.mirror | Xiaomi screen mirroring service, enables wireless display to other devices |
+| Xiaomi Connected Car Service | com.xiaomi.mis | Xiaomi connected car service application |
 | Mi Settings | com.xiaomi.misettings | Xiaomi settings service, manages device system settings |
 | Modem Test | com.xiaomi.mtb | Xiaomi MTB service, may be related to Xiaomi toolkit |
-|  | com.xiaomi.otrpbroker | Xiaomi OTRP (One-Time Password) broker service, manages one-time password functions |
+| otrpbroker | com.xiaomi.otrpbroker | Xiaomi OTRP (One-Time Password) broker service, manages one-time password functions |
 | Mi Credit Payment | com.xiaomi.payment | Xiaomi payment app, supports Xiaomi payment services |
 | Power Checker | com.xiaomi.powerchecker |  |
 | Scanner | com.xiaomi.scanner |  |
@@ -495,10 +502,10 @@ To disable or uninstall these apps, you can use:
 
 ## Credits
 
-Special thanks to the following people for helping to complete and verify this list:
+Huge thanks to the following contributors for helping to complete and verify this list:
 
-- **startx** - From Zhihu for composting some entries
-- **篮橙** - From CSDN blogger for the MIUI 14 list
+- **startx** - Partial debloat entries from Zhihu
+- **篮橙** - Provides original MIUI 14 app list from CSDN blog
 
 ---
 
