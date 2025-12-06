@@ -46,7 +46,7 @@ To disable or uninstall these apps, you can use:
 > This list represents pre-installed apps, do not uninstall/disable any apps referencing this list!
 
 > [!NOTE]
-> This list may not be complete even though I have checked it one by one. App names and descriptions have been translated or fetched from official sources by me to the best of my ability. Some apps may not be available on global devices, and names may vary between MIUI 14 and HyperOS 3.
+> This list may not be complete even though I have checked it one by one. App names and descriptions have been translated or fetched from official sources by me to the best of my ability. Some apps may not be available on global devices, and names may vary from MIUI 14 to HyperOS 3.
 
 [View it here](https://github.com/G0246/xiaomi_debloat/blob/main/README.md)
 
